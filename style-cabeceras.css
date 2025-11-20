@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* Cabecera 1: */
+.navbar {
+    background-color: cadetblue;
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    height: 30px;
+
+}
+
+.navbar a {
+    text-transform: capitalize;
+    color: wheat;
+    background-color: darkgoldenrod;
+    border-radius: 8px;
+    margin-left: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar a:hover {
+    background-color: blanchedalmond;
+    color: darkgray;
+    transform: scale(0.95);
+    transition: 0.45s ease;
+}
+
+
+/* cabeceras 2.0 */
+.S1 {
+    margin-top: 50px;
+    background-color: darkslategrey;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.S1 a {
+    border-radius: 10px;
+    color: whitesmoke;
+    background-color: darkolivegreen;
+}
+
+/* con eso quito el color de fondo de la imagen */
+#no {
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.enlaces {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.enlaces a:hover {
+    background-color: rgb(38, 132, 83);
+    color: darkgray;
+    transform: scale(0.95);
+    transition: 0.45s ease;
+}
+
+img:hover {
+    color: darkgray;
+    transform: scale(0.95);
+    transition: 0.45s ease;
+
+}
+
+
+/* Cabecera 3: */
+
+.S2 {
+    margin-top: 50px;
+    background-color: sandybrown;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.S2 a {
+    background-color: thistle;
+}
+
+.links {
+    display: flex;
+    gap: 8px;
+}
+
+.img-logo a {
+    background-color: rgba(240, 248, 255, 0);
+}
+
+.RRSS {
+    display: flex;
+    gap: 8px;
+}
+
+.S2 a:hover {
+    background-color: rgb(49, 64, 149);
+    color: darkgray;
+    transform: scale(0.95);
+    transition: 0.45s ease;
+}
